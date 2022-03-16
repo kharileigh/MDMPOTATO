@@ -113,3 +113,8 @@ card-deck.img-fluid{
 .map {
     margin: 30px 0px;
 }
+
+.sumac-header {
+    background-image: url(images/sumac.jpeg);
+    background-size: cover;
+}
