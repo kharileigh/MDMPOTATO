@@ -24,10 +24,20 @@ p {
 
 .navbar {
     background-color: #FEF9F5;
+    
+}
+
+.nav-item {
+    margin: 10px 15px;;
+    font-size: 20px;
+    font-family:  'Poppins', sans-serif;
 }
 
 .navbar-brand {
     font-size: 25px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .hamburger {
@@ -88,6 +98,10 @@ p {
   .jumbotron {
       background-color: #A86842;
       color: #fff;
+  }
+
+  .intro {
+      font-size: 25px;
   }
 
   
