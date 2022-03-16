@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@400;700&display=swap');
 
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -17,6 +17,10 @@ h3 {
     font-size: 48px;
 }
 
+h4 {
+    font-weight: 700;
+}
+
 p { 
     font-family: 'Fredoka', sans-serif;
     font-size: 20px;
@@ -24,10 +28,20 @@ p {
 
 .navbar {
     background-color: #FEF9F5;
+    
+}
+
+.nav-item {
+    margin: 10px 15px;;
+    font-size: 20px;
+    font-family:  'Poppins', sans-serif;
 }
 
 .navbar-brand {
     font-size: 25px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .hamburger {
@@ -90,6 +104,10 @@ p {
       color: #fff;
   }
 
+  .intro {
+      font-size: 25px;
+  }
+
   
 card-deck.img-fluid{
     max-width: 100%;
@@ -99,3 +117,9 @@ card-deck.img-fluid{
 .map {
     margin: 30px 0px;
 }
+
+.sumac-header {
+    background-image: url(images/sumac.jpeg);
+    background-size: cover;
+}
+
