@@ -14,54 +14,49 @@
   
   </head>
   <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-light purple lighten-4">
-
-        <!-- Navbar brand -->
-        <a class="navbar-brand" href="index.html">🥔 Madame Potato</a>
-    
-        <!-- Collapse button -->
-        <button class="navbar-toggler toggler-example purple darken-3" type="button" data-toggle="collapse"
-        data-target="#navbarSupportedContent41" aria-controls="navbarSupportedContent41" aria-expanded="false"
-        aria-label="Toggle navigation"><span class="white-text"><i class="fas fa-bars fa-1x hamburger"></i></span></button>
-    
-        <!-- Collapsible content -->
-      <!--  <div class="collapse navbar-collapse" id="navbarSupportedContent41"> -->
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-            <a class="nav-link text-center" href="../index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item text-center">
-            <a class="nav-link" href="recipes.html">Recipes</a>
-            </li>
-            <li class="nav-item text-center">
-            <a class="nav-link" href="stores.html">Stores</a>
-            </li>
-        </ul>
-        <!-- Links -->
-    
+    <!--navbar-->
+    <nav class="navbar sticky-top navbar-expand-md navbar-light">
+        <div class="container-md d-flex">
+          <a class="navbar-brand" href="index.html">🥔 Madame Potato</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Who We Are</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recipes.html">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="stores.html">Shop</a>
+              </li>   
+            </ul>
+          </div>  
         </div>
-        <!-- Collapsible content -->
-    
-    </nav>
-    <!--/.Navbar-->
-  <div class="jumbotron jumbotron-fluid">
+      </nav>
+    <!--/.nav bar-->
+    <!--jumbotron-->
+    <div class="jumbotron jumbotron-fluid">
 
-    <video autoplay muted loop poster="images/video.mp4">    
-        <source src="" data-src="images/video.mp4" type="video/mp4" alt="potato video">
-    </video>
-    
-      <div class="container text-white pt-5 text-center">
-        <h1 class="display-4">Madame Potato</h1>
-        <p class="lead">Our potatoes taste good, make you feel good and are from the best sustainable organic farms here in the UK. </p>
-        <hr class="my-4">
-        <p>Try our delicious recipes here!</p>
-        <a class="btn btn-lg cta" href="recipes.html" role="button">Our Recipes</a>
-    
-      </div>
-      <!-- /.container -->
-    </div>
+        <video autoplay muted loop poster="images/video.mp4">    
+            <source src="" data-src="images/video.mp4" type="video/mp4" alt="potato video">
+        </video>
+        <!--container-->
+        <div class="container text-white pt-5 text-center">
+            <h1 class="display-4">Madame Potato</h1>
+            <p class="lead">Our potatoes taste good, make you feel good and are from the best sustainable organic farms here in the UK. </p>
+            <hr class="my-4">
+            <p>Try our delicious recipes here!</p>
+            <a class="btn btn-lg cta" href="recipes.html" role="button">Our Recipes</a>
+        
+        </div>
+        <!-- /.container -->
+        </div>
     <!-- /.jumbotron -->
 
     <!--What We Do Section -->
@@ -79,7 +74,7 @@
     <div class="who-we-are container">
         <h2 class="mb-5">Who We Are</h2>
         <!--Our photos below this header-->
-        <div class="row text-center img-fluid">
+        <div class="row text-center img-fluid mb-5">
             <div class="col-lg-6 ">
                 <img class="rounded-circle" src="images/Khari2.jpg" alt="image of Khari, co-founder" width="250" height="250">
                 <h3>Khari</h3>
@@ -93,7 +88,7 @@
                 <p><a class="btn btn-secondary" href="https://github.com/trinayau">Find out more!</a></p>
             </div>
         </div>
-        <p class="mt-50">Khari and Trina met on a coding course in London called futureproof, where they were put together in a group by Jagan and discovered their mutual love of potatoes. They would love to introduce the world of potatoes to everyone and find more people to share potato recipes with.</p>
+        <p class="mt-5 intro">Khari and Trina met on a coding course in London called futureproof, where they were put together in a group by Jagan and discovered their mutual love of potatoes. They would love to introduce the world of potatoes to everyone and find more people to share potato recipes with.</p>
 
     </div>
     <!--/.Who We Are-->
@@ -106,7 +101,7 @@
         <p class="text-muted">Let's work together on sustainable farming and potato production</p>
         </div>
         <div>
-        <a href="/" title="Contact Khari and Trina for work opportunities" target="_blank" class="btn btn-branding d-none d-md-flex mt-3">Contact us</a>
+        <a href="mailto:madamepotato@gmail.com" title="Contact Khari and Trina for collaboration opportunities" target="_blank" class="btn btn-branding d-none d-md-flex mt-3">Contact us</a>
         </div>
       </div>
     </footer>
