@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@400;700&display=swap');
 
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -15,6 +15,10 @@ h2 {
 
 h3 {
     font-size: 48px;
+}
+
+h4 {
+    font-weight: 700;
 }
 
 p { 
@@ -118,3 +122,4 @@ card-deck.img-fluid{
     background-image: url(images/sumac.jpeg);
     background-size: cover;
 }
+
