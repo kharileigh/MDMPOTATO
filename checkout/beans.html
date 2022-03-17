@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Lesson</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/592efcffa0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <script src="app.js"></script>
+  
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar sticky-top navbar-expand-md navbar-light">
+        <div class="container-md d-flex">
+          <a class="navbar-brand" href="../index.html">🥔 Madame Potato</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#who">Who We Are</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../recipes.html">Kits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../stores.html">Shop</a>
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link" href="beans.html"><i class="fas fa-shopping-cart"></i></a>
+              </li>  
+            </ul>
+          </div>  
+        </div>
+      </nav>
+    <!--/.nav bar-->
+        <div class="container cart-top">
+          <h5 class="mt-5">Shopping Cart</h5>
+          <hr class="my-4">
+        </div>
+        <section class="h-100 h-custom" style="background-color: #D1B070;">
+            <div class="container pb-5 h-100">
+              <div class="row d-flex justify-content-center align-items-center pt-3">
+                <div class="col-12">
+                  <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                    <div class="card-body p-0">
+                      <div class="row g-0">
+                        <div class="col-lg-8">
+                          <div class="p-5">
+                            <div class="d-flex justify-content-between align-items-center mb-5">
+                              <h8 class="fw-bold mb-0 text-black">Shopping Cart</h8>
+                              
+                            </div>
+                            <hr class="my-4">
+          
+                            <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                <img
+                                  src="../images/sweetJacket.webp"
+                                  class="img-fluid rounded-3" alt="sweet potato jacket">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                <h6 class="text-muted">Potato Kit</h6>
+                                <h6 class="text-black mb-0">Sweet Potato Jacket</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                  <i class="fas fa-minus"></i>
+                                </button>
+          
+                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                  class="form-control form-control-sm" />
+          
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                  <i class="fas fa-plus"></i>
+                                </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                <h6 class="mb-0">£ 2.80</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                <img
+                                  src="../images/stirFryJacket.webp"
+                                  class="img-fluid rounded-3" alt="chilli jacket potato">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                <h6 class="text-muted">Potato Kit</h6>
+                                <h6 class="text-black mb-0">Stir-Fry Chilli Beef</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                  <i class="fas fa-minus"></i>
+                                </button>
+          
+                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                  class="form-control form-control-sm" />
+          
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                  <i class="fas fa-plus"></i>
+                                </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                <h6 class="mb-0">£ 3.00</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                <img
+                                  src="../images/sumac.jpeg"
+                                  class="img-fluid rounded-3" alt="sumac jacket potato">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                <h6 class="text-muted">Potato Kit</h6>
+                                <h6 class="text-black mb-0">Whipped Feta and Sumac</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                  <i class="fas fa-minus"></i>
+                                </button>
+          
+                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                  class="form-control form-control-sm" />
+          
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                  <i class="fas fa-plus"></i>
+                                </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                <h6 class="mb-0">£ 2.90</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="pt-5">
+                              <h6 class="mb-0"><a href="../recipes.html" class="text-body"><i
+                                    class="fas fa-long-arrow-alt-left me-2"></i>Back to kits</a></h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 bg-grey">
+                          <div class="p-5">
+                            <h7 class="fw-bold mb-5 mt-2 pt-1">Summary</h7>
+                            <hr class="my-4">
+          
+                            <div class="d-flex justify-content-between mb-4">
+                              <h7 class="text-uppercase">Items: 3</h7>
+                              <h7>£ 8.70</h7>
+                            </div>
+          
+                            <h7 class="text-uppercase mb-3">Shipping</h7>
+          
+                            <div class="mb-4 pb-2">
+                              <select class="select">
+                                <option value="1">Standard-Delivery- £2.00</option>
+                                <option value="2">Pick up at Sainsbury's- FREE</option>
+                                <option value="3">Pick up at Tesco- FREE </option>
+                                <option value="4">Pick up at Waitrose- FREE </option>
+                              </select>
+                            </div>
+          
+                            <h7 class="text-uppercase mb-3">Give code</h7>
+          
+                            <div class="mb-5">
+                              <div class="form-outline">
+                                <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                                <label class="form-label ml-1" for="form3Examplea2">Enter your code</label>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="d-flex justify-content-between mb-5">
+                              <h7 class="text-uppercase">Total price</h7>
+                              <h7>£ 8.70</h7>
+                            </div>
+          
+                            <button type="button" class="btn btn-dark btn-block btn-lg"
+                              data-mdb-ripple-color="dark">Buy Now!</button>
+          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+      </body>
+      </html>
