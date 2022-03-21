@@ -18,7 +18,7 @@ Choose your favourite food.
 
 ## Planning
 Khari and I decided to plan out our website on pen and paper first. 
-![Wireframe for Madame Potato Website](/images/wireframe.png?raw=true "Wireframe");
+![Wireframe for Madame Potato Website](/images/wireframe.png?raw=true "Wireframe")
 We then split up the work: Khari would code the second page of jacket potato kits using Bootstrap's flexbox grid system.
 I began designing the homepage and looked up how to put a video in our header. 
 Our cohort colleague [Prishal](https://github.com/Prishal-git) helped us locate the best navigation bar while working on his own project, DIRAL.
