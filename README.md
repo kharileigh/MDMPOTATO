@@ -32,3 +32,6 @@ We decided to use GitHub as a collaborative writing tool for the first time rath
 - We learnt how to work collaboratively on GitHub despite initial hiccups
 - Used BootStrap 4.6 to make a responsive web page for desktop and mobile
 - We realised that spending time thinking and planning together at the beginning really helped us in the process, rather than jumping in straight to code
+
+## Final Project ✨
+![Final Madame Potato Website](/images/final-image.png?raw=true "Wireframe")
