@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Lesson</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/592efcffa0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+  
+  </head>
+  <body>
+       <!--navbar-->
+    <nav class="navbar sticky-top navbar-expand-md navbar-light">
+        <div class="container-md d-flex">
+          <a class="navbar-brand" href="index.html">🥔 Madame Potato</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#who">Who We Are</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="recipes.html">Potato Kits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="stores.html">Shop</a>
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link" href="checkout/beans.html"><i class="fas fa-shopping-cart"></i></a>
+              </li>  
+            </ul>
+          </div>  
+        </div>
+      </nav>
+    <!--/.nav bar-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1>Shops</h1>
+          <p>Find Madame Potato in the nearest supermarkets near you.</p>
+        </div>
+      </div>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <p class="card-text">Sainbury's
+                    <img src="images/sainburysLogo.png" class="img-fluid" alt="Sainsbury's Logo">
+                </p>
+                <a href="https://stores.sainsburys.co.uk/" class="btn btn-md cta"  target="_blank">Find your closest store</a>
+              </div>
+            </div>
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <p class="card-text">Tesco
+                    <img src="images/tescoLogo.png" class="img-fluid mt-4 pb-5" alt="Tesco Logo">
+                </p>
+                <a href="https://www.tesco.com/store-locator/" class="btn btn-md cta"  target="_blank">Find your closest store</a>
+              </div>
+            </div>
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <p class="card-text">Waitrose
+                    <img src="images/waitroseLogo.png" class="img-fluid" alt="Waitrose">
+                </p>
+                <a href="https://www.waitrose.com/content/waitrose/en/bf_home/bf.html" class="btn btn-md cta" target="_blank">Find your closest store</a>
+              </div>
+            </div>
+    </div>
+    <div class="text-center map dflex">
+       <h2>Come Visit Us</h2> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.9001018191957!2d-0.13763468409120633!3d51.49670067963335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604de86df845d%3A0x8fd3da0ac5533f3!2sFutureproof!5e0!3m2!1sen!2suk!4v1647444171323!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
+<!--Contact Box-->
+<footer>
+  <div class="contact-box d-flex justify-content-between m-5 w-80 p-5" style="background-color: #3C4D3B ;">
+      <div>
+      <h3 class="text-light">Work Inquiry</h3>
+      <p class="text-light">Let's work together on sustainable farming and potato production</p>
+      </div>
+      <div>
+      <a href="mailto:madamepotato@gmail.com" title="Contact Khari and Trina for collaboration opportunities" target="_blank" class="btn btn-branding d-none d-md-flex mt-3">Contact us</a>
+      </div>
+    </div>
+  </footer>
+    <!--/.Contact Box-->
+    </body>
+    </html>
